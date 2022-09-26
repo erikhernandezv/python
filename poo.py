@@ -62,6 +62,7 @@ print("\n")
 
 print(people.area)
 
+""" A cointinuación un pequeño ejemplo de polimorfismo"""
 class Perro(object):
     def avanzar(self):
         print("Avanzar en 4 patas...")
@@ -75,3 +76,7 @@ def mover(animal):
     
 dog = Perro()
 perico = Perico()
+
+#Implementando el polimorfismo
+mover(dog)
+mover(perico)
